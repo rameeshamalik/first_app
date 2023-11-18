@@ -411,12 +411,15 @@ class RegisterScreen extends StatelessWidget {
   }
 }
 
+
 //4th screen
 class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+        body: SingleChildScrollView(
+      scrollDirection: Axis.vertical,
+      child: Column(
         children: [
           // Header
           Align(
@@ -659,6 +662,6 @@ class MainScreen extends StatelessWidget {
           ),
         ],
       ),
-    );
+    ));
   }
 }

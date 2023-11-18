@@ -75,7 +75,7 @@ class LandingScreen extends StatelessWidget {
   }
 }
 
-//2nd secreen
+//2nd screen
 class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
